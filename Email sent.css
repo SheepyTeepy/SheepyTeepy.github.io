@@ -1,3 +1,8 @@
+@font-face{
+    font-family: 'berlin sansfb';
+    src: url('fonts/BerlinSansFB-Reg.ttf') format('truetype')
+}
+
 body {
     background-image: url("bakgrund\ til\ hobbynettside_page-0001.jpg");
     background-repeat: no-repeat;
@@ -6,6 +11,23 @@ body {
     font-family: "Nerko One", cursive;
 }
 
+button {
+    padding: 15px 25px;
+    color: #0d3b66;
+    background-color: #faf0ca;
+    border: 2px solid #faf0ca;
+    border-radius: 5px;
+    font-family: "Nerko One", cursive;
+    font-size: 23px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f4d35e;
+    color: #0d3b66;
+    border: 2px solid #f4d35e;
+    border-radius: 5px;
+}
 .topnav {
     overflow: hidden;
     background-color: #f4d35e;
@@ -15,17 +37,23 @@ body {
 
 h3 {
     text-align: center;
-    font-family: "Nerko One", cursive;
-    font-size: 50;
+    font-family: "berlin sansfb", cursive; /* hær har jeg endret skrifttypen fra nerko one til berlin sansfb */
+    font-size: 25px;
 }
 p {
     text-align: center;
-    font-family: "Nerko One", cursive;
-    font-size: 20;
+    font-family: "berlin", cursive;
+    font-size: 20px;
 }
 
 .nerko-one-regular {
     font-family: "Nerko One", cursive;
+    font-weight: 350;
+    font-style: normal;
+}
+
+.berlin-sansfb-regular {
+    font-family: "berlin sansfb", cursive;
     font-weight: 350;
     font-style: normal;
 }
