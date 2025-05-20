@@ -1,6 +1,6 @@
 body {
     background-image: url("bakgrund\ til\ hobbynettside_page-0001.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
     margin: 0;
     font-family: "Nerko One", cursive;
